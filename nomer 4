@@ -1,0 +1,8 @@
+Tentukan pseudocode luas jajar genjang
+(panjang = 5, tinggi = 3)
+Menghitung Luas Jajar Genjang:
+python:
+panjang = 5
+tinggi = 3
+luas = panjang * tinggi
+print("Luas jajar genjang:", luas)
