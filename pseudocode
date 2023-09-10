@@ -1,0 +1,84 @@
+Cari nilai KPK dari 3 dan 4
+def gcd(a, b):
+ while b != 0:
+ remainder = a % b
+ a = b
+ b = remainder
+ return a
+def lcm(a, b):
+ return (a * b) // gcd(a, b)
+def main():
+ number1 = 3
+ number2 = 4
+ kpk = lcm(number1, number2)
+ print(f"KPK dari {number1} dan {number2} adalah {kpk}")
+main()
+
+
+
+Fungsi untuk menukar posisi dua variabel x dan y, dengan kasus : Ada 2 buah: manggis dan
+pisang. Manggis di piring 1, Pisang di piring 2. Piring 3 kosong.
+def tukar_posisi(x, y):
+ temp = x
+ x = y
+ y = temp
+ return x, y
+piring_manggis = 1
+piring_pisang = 2
+piring_kosong = 3
+print("Sebelum pertukaran:")
+print("Piring Manggis:", piring_manggis)
+print("Piring Pisang:", piring_pisang)
+print("Piring Kosong:", piring_kosong)
+piring_manggis, piring_pisang = tukar_posisi(piring_manggis, piring_pisang)
+print("\nSetelah pertukaran:")
+print("Piring Manggis:", piring_manggis)
+print("Piring Pisang:", piring_pisang)
+print("Piring Kosong:", piring_kosong)
+
+
+
+Diketahui sebuah segitiga memiliki ukuran sebagai berikut:
+Alas 25
+Tinggi 30
+Hitung luas dari segitiga tersebut.
+Menghitung Luas Segitiga:
+alas = 25
+tinggi = 30
+luas = 0.5 * alas * tinggi
+print("Luas segitiga:", luas)
+
+
+
+pseudocode luas jajar genjang
+(panjang = 5, tinggi = 3)
+Menghitung Luas Jajar Genjang:
+python:
+panjang = 5
+tinggi = 3
+luas = panjang * tinggi
+print("Luas jajar genjang:", luas)
+
+
+
+Tentukan pseudocode volume tabung (jari-jari = 3, tinggi = 5)
+Menghitung Volume Tabung:
+python:
+jari_jari = 3
+tinggi = 5
+pi = 3.14159
+volume = pi * jari_jari ** 2 * tinggi
+print("Volume tabung:", volume)
+
+
+
+Tentukan pseudocode volume kerucut
+(diameter = 5, tinggi = 4)
+Menghitung Volume Kerucut:
+Python:
+Diameter = 5
+Tinggi = 4
+Jari_jari = diameter / 2
+Pi = 3.14159
+Volume = (1/3) * pi * jari_jari ** 2 * tinggi
+Print(“Volume kerucut:”, volume)
