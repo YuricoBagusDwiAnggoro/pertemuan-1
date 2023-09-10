@@ -1,0 +1,6 @@
+Tentukan pseudocode volume tabung (jari-jari = 3, tinggi = 5)
+jari_jari = 3
+tinggi = 5
+pi = 3.14159
+volume = pi * jari_jari ** 2 * tinggi
+print("Volume tabung:", volume)
